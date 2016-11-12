@@ -1,0 +1,90 @@
+.header{width:100%;}
+.header>.bg{width:100%;height:5.6rem;overflow:hidden;background: url(../images/elana/bg.jpg) no-repeat;background-size: 100% 100%;}
+.header>.bg>.logo{text-align: center;margin-top:0.6rem;/*float: left;*/line-height:0.5rem;}
+.header>.bg>.logo>img{width:1.2rem;height:0.5rem;display: inline-block;}
+.header>.bg>.nav{margin-top: 0.4rem;}
+.header>.bg>.nav>ul{width:6rem;margin:0 auto;}
+.header>.bg>.nav>ul>li{height:0.2rem;float: left;line-height: 0.2rem;width:25%;text-align: center;}
+.header>.bg>.nav>ul>li>a{color:#fff;font-size: 0.16rem;display: block;width:100%;height:100%;}
+.header>.bg>.slogan{text-align: center;font-size: 0.4rem;font-weight:600;line-height: 0.5rem;margin-top: 0.4rem;color: #fff;}
+.header>.bg>.tit{margin:0.3rem 1.6rem 0;font-size: 0.16rem;color: #fff;text-align:center;font-weight: 600;position: relative;}
+
+.header>.bg>.tit>.line{position: absolute;width:1.1rem;height:0.01rem;background-color: #bababa;top:50%;}
+.header>.bg>.tit>.line:first-of-type{left:-1.1rem;}
+.header>.bg>.tit>.line:last-child{right:-1.1rem;}
+.btn{width:3.4rem;height:0.6rem;margin:0.8rem auto 0;font-size: 0.18rem;font-weight: 500;
+background-color: #50c3af;border-radius: 0.3rem;text-align: center;line-height: 0.6rem;}
+.btn a{color:#fff;}
+.list{padding:0.6rem 0.45rem;background-color: #eeeeef;}
+.list ul li{float: left;width:2.0rem;padding: 0.4rem 0.1rem 0;background-position: top center;background-repeat: no-repeat;background-size: 0.52rem 0.4rem;}
+.list ul li p:first-child{margin:0.2rem auto 0;text-align: center;font-size: 0.16rem;color: #0c0c0c;border-bottom: 0.01rem solid #C0C0C0;font-weight: 600;}
+.list ul li p:nth-child(2){color: #545454;font-size:0.12rem;text-align: center;margin-top: 0.2rem;}
+.list ul li:first-child{background-image: url(../images/elana/icon3.png);}
+.list ul li:nth-child(2){background-image: url(../images/elana/icon2.png);}
+.list ul li:nth-child(3){background-image: url(../images/elana/icon1.png);}
+
+.content .t{padding:0.6rem 0.25rem;}
+.content .t>ul>li{float: left;padding:0 0.1rem;width:50%;box-sizing: border-box;}
+.content .t>ul>li>img{width:100%;}
+.content .t>ul>li>p:first-of-type{font-size: 0.2rem;color:#181818;font-weight:600;}
+.content .t>ul>li>div{border-top: 0.01rem solid #C0C0C0;padding-top:0.2rem;margin-top:0.2rem;}
+.content .t>ul>li>div>p{font-size: 0.12rem;color: #616161;}
+.content .t>ul>li>div>div{width:1.2rem;height:0.4rem;margin-top:0.2rem;background-color: #50c3af;border-radius: 0.2rem;}
+.content .t>ul>li>div>div>a{color:#fff;font-size: 0.12rem;line-height: 0.4rem;display: block;width:100%;height:100%;text-align: center;}
+.content .ati{padding:0.5rem 0.35rem;background-color: #eeeeef;}
+.content .ati>P:first-child{font-size: 0.2rem;color: #181818;box-sizing: border-box;padding-left: 0.4rem;font-weight: 600;
+background: url(../images/elana/icon4.png) no-repeat left center;background-size: 0.28rem 0.24rem;}
+.content .ati>div:first-of-type{height:0.01rem;background-color: #C0C0C0;margin:0.2rem 0;}
+.content .ati>P:nth-child(3){font-size: 0.12rem;color: #616161;}
+.content .ati>div:last-child{width:1.0rem;height:0.36rem;border-radius: 0.18rem;background-color: #d2d5da;margin-top: 0.2rem;}
+.content .ati>div:last-child>a{display: block;color: #fff;font-size: 0.12rem;text-align: center;width:100%;height:100%;line-height: 0.36rem;}
+
+.content .three{padding:0.6rem 0.35rem;}
+.content .three>ul>li{width:2.2rem;float:left;}
+.content .three>ul>li:nth-child(n+2){margin-left: 0.1rem;}
+.content .three>ul>li>dl>img{width:100%;}
+.content .three>ul>li>dl>dt{font-size:0.2rem;font-weight:600;color:#181818;}
+.content .three>ul>li>dl>dd:first-of-type{height:0.01rem;background-color: #C0C0C0;margin:0.2rem 0;}
+.content .three>ul>li>dl>dd:nth-of-type(2){font-size: 0.12rem;color: #616161;}
+.content .three>ul>li>dl>dd:last-child{font-size: 0.12rem;padding-top: 0.12rem;}
+.content .three>ul>li>dl>dd:last-child>a{font-size: 0.12rem;color:#50c3af;}
+
+.content .two{padding:0.6rem 0.35rem;background-color: #eeeeef;}
+.content .two>ul>li{float: left;width:3.2rem;}
+.content .two>ul>li:last-child{margin-left: 0.4rem;}
+.content .two>ul>li>dl>dt{font-size:0.24rem;font-weight:600;color:#181818;box-sizing: border-box;padding-left: 0.4rem;background-position: left center;
+background-repeat: no-repeat;background-size: 0.28rem 0.22rem;}
+.content .two>ul>li:first-child>dl>dt{background-image: url(../images/elana/icon6.png);}
+.content .two>ul>li:last-child>dl>dt{background-image: url(../images/elana/icon5.png);}
+.content .two>ul>li>dl>dd:first-of-type{height:0.01rem;background-color: #C0C0C0;margin:0.2rem 0;}
+.content .two>ul>li>dl>dd:nth-of-type(2){font-size: 0.12rem;color: #616161;}
+.content .two>ul>li>dl>dd:nth-of-type(3){width:1.0rem;height:0.36rem;border-radius: 0.18rem;background-color: #50c3af;margin-top: 0.2rem;}
+.content .two>ul>li>dl>dd:nth-of-type(3)>a{display: block;width:100%;height:100%;text-align: center;color: #fff;font-size: 0.12rem;line-height: 0.36rem;}
+.content .theme{padding:0.6rem 0.35rem;}
+.content .theme>div:first-child{width:3.2rem;float: left;}
+.content .theme>div:first-child>img{width:100%;height:100%;float: left;}
+.content .theme>div:last-child{float: right;width:3.3rem;}
+.content .theme>div:last-child>dl>dt{font-size:0.18rem;font-weight:600;color:#181818;}
+.content .theme>div:last-child>dl>dd:first-of-type{height:0.01rem;background-color: #C0C0C0;margin:0.2rem 0;}
+.content .theme>div:last-child>dl>dd:nth-of-type(2){font-size: 0.12rem;color: #616161;}
+.content .theme>div:last-child>dl>dd:nth-of-type(3){width:1.0rem;height:0.36rem;border-radius: 0.18rem;background-color: #d2d5da;margin-top: 0.2rem;}
+.content .theme>div:last-child>dl>dd:nth-of-type(3)>a{display: block;width:100%;height:100%;text-align: center;color: #fff;font-size: 0.12rem;line-height: 0.36rem;}
+.footer .frend-links{padding:0.5rem 0.35rem;background-color: #50c3af;}
+.footer .frend-links>div:first-child{padding:0 1.5rem 0.3rem;border-bottom: 0.01rem solid silver;}
+.footer .frend-links>div:first-child>p{font-size: 0.16rem;color: #fff;font-weight:400;padding-left:0.2rem;
+text-align: center;
+height:0.2rem;line-height: 0.2rem;}
+.footer .frend-links>div:first-child>p>img{height:0.2rem;line-height: 0.2rem;vertical-align:text-bottom}
+.footer .frend-links>div:first-child>p>span{font-size: 0.16rem;line-height: 0.2rem;}
+.footer .frend-links>div:last-child{margin-top: 0.4rem;}
+.footer .frend-links>div:last-child>ul>li{float: left;width:25%;height:0.3rem;}
+.footer .frend-links>div:last-child>ul>li>a{display: block;width:100%;height:100%;}
+.footer .frend-links>div:last-child>ul>li>a>img{width:100%;height:100%;float: left;}
+.footer .crt{padding:0.2rem 0.35rem;}
+.footer .crt>p{float: left;color: #616161;font-size: 0.16rem;line-height: 0.4rem;height:0.4rem;}
+.footer .crt>ul{float: right;width:auto;}
+.footer .crt>ul>li{float: left;width:0.4rem;height:0.4rem;background-size: 0.36rem 0.27rem;background-position: center center;background-repeat: no-repeat;}
+.footer .crt>ul>li:nth-child(1){background-image: url(../images/elana/google.png);}
+.footer .crt>ul>li:nth-child(2){background-image: url(../images/elana/facebook.png);}
+.footer .crt>ul>li:nth-child(3){background-image: url(../images/elana/teittwer.png);}
+
